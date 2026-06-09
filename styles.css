@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(135deg, #130024, #3a0a4f, #000000);
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+#logo {
+  color: white;
+  text-shadow: 0 0 10px #8a2be2;
+}
+.box-1{
+    width: 400px;
+    height: 400px;
+    border-radius:2%;
+    background-color: black;
+    box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
+}
+.box-2{
+    width: 600px;
+    height: 500px;
+    border-radius:2%;
+    background-color: black;
+    box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
+
+}
+.box-3{
+    width: 400px;
+    height: 150px;
+    border-radius:3%;
+    background-color: black;
+    box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
+}
+.box-4{
+    width: 900px;
+    height: 100px;
+    border-radius:3%;
+    background-color: black;
+    box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
+}
