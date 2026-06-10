@@ -6,7 +6,7 @@ a {
   color: white;
   text-decoration: none;
 }
-#logo {
+.header {
   color: white;
   text-shadow: 0 0 10px #8a2be2;
 }
@@ -14,14 +14,14 @@ a {
     width: 400px;
     height: 400px;
     border-radius:2%;
-    background-color: black;
+    background-color: rgba(0,0,0,0.1);
     box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
 }
 .box-2{
     width: 600px;
     height: 500px;
     border-radius:2%;
-    background-color: black;
+    background-color: rgba(0,0,0,0.1);
     box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
 
 }
@@ -29,13 +29,48 @@ a {
     width: 400px;
     height: 150px;
     border-radius:3%;
-    background-color: black;
+    background-color: rgba(0,0,0,0.1);
     box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
 }
 .box-4{
     width: 900px;
     height: 100px;
     border-radius:3%;
-    background-color: black;
+    background-color: rgba(0,0,0,0.1);
     box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
+}
+.about-box {
+    width: 1150px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 2%;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
+}
+.education-box {
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 2%;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
+    margin-top: 20px;
+}
+.current-focus-box {
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 2%;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
+    margin-top: 20px;
+}
+.strength-box {
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 2%;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
+    margin-top: 20px;
 }
