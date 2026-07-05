@@ -1,31 +1,42 @@
-# AkZone Portfolio
+# 🌐 AkZone Portfolio
 
-A personal portfolio project built using HTML and CSS.  
-This is an **on-going development project** where I continuously improve my frontend skills.
+A personal portfolio website showcasing my journey as a Computer Science student, projects, technical skills, coding profiles, and achievements.
 
-## 🚀 Current Features
-- Responsive navigation structure
-- Hero section UI blocks
-- Basic portfolio sections (About, Skills, Projects, Experience, Contact, Blogs)
-- Dark cyber-themed design
+## ✨ Features
 
-## 🛠️ Tech Stack
-- HTML
-- CSS
+- Responsive design
+- Modern dark-themed UI
+- About Me section
+- Skills & Coding Profiles
+- Projects showcase (WIP)
+- Hackathons section (WIP)
+- Contact section (WIP)
+- Light/Dark mode (In Progress)
 
-## 🔧 Status
-🚧 ON DEVELOPMENT  
-This project is actively being improved with new UI features, responsiveness, and interactivity.
+## 🛠️ Built With
 
-## 📌 Goal
-To build a clean, professional portfolio while learning modern frontend development step by step.
+- HTML5
+- CSS3
+- JavaScript *(Coming Soon)*
 
-## 📈 Upcoming Updates
-- Flexbox-based layout improvements
-- Responsive mobile design
-- JavaScript interactivity (theme toggle, animations)
-- UI/UX enhancements
+## 🚀 Status
 
----
+🚧 Currently under active development.
 
-Built as part of my frontend learning journey.
+Planned improvements:
+- Interactive terminal
+- Better animations
+- Project showcase
+- Mobile responsiveness
+- Dark/Light mode
+- Contact form
+
+## 📸 Preview
+
+*Screenshots will be added soon.*
+
+## 👨‍💻 Author
+
+**Akshaya Sri**
+
+If you like the project, feel free to ⭐ the repository.
