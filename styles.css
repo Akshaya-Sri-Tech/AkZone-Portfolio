@@ -1,37 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Space+Grotesk:wght@300..700&display=swap');
+:root {
+  --bg-gradient: linear-gradient(135deg, #160035, #3a0a4f, #100123);
+  --text-primary: #e5e7eb;
+  --text-secondary: #ece9dc;
+  --accent: #c084fc;
+  --box-color:rgba(55, 22, 76, 0.1);
+  --box-shadow: 0 0 20px rgba(124, 84, 161, 0.5);
+  --border : 1px solid rgba(65, 16, 78, 0.5);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#mode-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+
 body {
-  background: linear-gradient(135deg, #160035, #3a0a4f, #100123);
-  color: white;
+  padding: 1em;
+  font-family: "merriweather", sans-serif;
+  background: var(--bg-gradient);
+  color: var(--text-primary);
 }
 
-a {
-  color: white;
+h1 {
+  font-family: "Merriweather", serif;
+  padding : 0.5em 0 0 0.5em;
+  font-size: 2em;
+}
+
+p {
+  font-family: "Lora", serif;
+  font-size: 1.1em;
+}
+.special-color {
+  color: var(--accent);
+}
+
+.side-header {
+  font-family: "Lora", sans-serif;
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+ul li {
+  font-family: "Lora", sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+  list-style:none;
+}
+
+
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: min(1200px, 100%);
+    margin: 0 auto 2em auto;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul li a{
+  color: var(--text-secondary);
   text-decoration: none;
+  font-family: "Lora", serif;
 }
 
-.header {
-  color: white;
-  text-shadow: 0 0 10px #8a2be2;
+nav ul li a:hover{
+  text-decoration: underline;
 }
 
+.logo {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-size: 2em;
+    font-family: "Merriweather", serif;
+}
+
+/*BOXES*/
 .box {
-  background-color: rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 20px rgba(124, 84, 161, 0.4);
-  border-radius: 2%;
+  background: var(--box-color);
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  padding: 1.5em;
+  margin: 1em 0;
+  border-radius: 18px;
+  width: 100%;
 }
 
-/* Individual sizes */
-.box-1 { width: 400px; height: 400px; }
-.box-2 { width: 600px; height: 500px; }
-.box-3 { width: 400px; height: 150px; border-radius: 3%; }
-.box-4 { width: 900px; height: 100px; border-radius: 3%; }
 
-.about-box { width: 1150px; height: 150px; padding: 20px; }
-
-.education-box,
-.current-focus-box,
-.strength-box {
-  width: 300px;
-  height: 250px;
-  padding: 20px;
-  margin-top: 20px;
+/*HERO SECTION*/
+.hero-box{
+  display: grid;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 2em;
 }
+
+.box-1{
+  width: min(320px, 95%);
+  height: min(320px, 95%);
+  border-radius: 18px;
+}
+
+.box-2{
+  width: min(600px, 95%);
+  height: min(600px, 95%);
+  border-radius: 18px;
+}
+
+.box-3{
+  width: min(320px, 95%);
+  height: min(320px, 95%);
+  border-radius: 18px;
+}
+
+/*ABOUT SECTION*/
+.inside-about-box {
+  padding-bottom: 1em;
+}
+.container-collection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.container {
+  background: var(--box-color);
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  width : min(320px,95%);
+  height: min(320px,95%);
+  flex-direction: column;
+  padding: 1.5em;  
+  text-align: center;
+}
+.education-box {
+  text-align: left;
+}
+
+/*SKILLS & PROFILES SECTION*/
+.skills-profiles-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5em;
+  padding: 0.5em 0;
+}
+.skills-profiles-box ul li{
+  font-size: 1.2em;
+  gap: 1.5em;
+}
+.skills-box {
+  width: min(400px, 95%);
+  height: 470px;
+  text-align: center;
+}
+
+.profiles-box {
+  width: min(400px, 95%);
+  height: 470px;
+  text-align: center;
+}
+
+.profiles-box a {
+  margin: 0.2em auto;
+  display: block;
+  margin-bottom: 1em;
+  color: var(--accent);
+  font-size: 0.9em;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .container-collection,
+    .skills-profiles-box {
+        flex-direction: column;
+        align-items: center; 
+        gap: 20px;
+    }
+}
+
+
+
